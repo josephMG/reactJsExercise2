@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'pg_search'
+gem 'annotate'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,10 +33,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'acts-as-taggable-on'
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'
-
+gem 'active_model_serializers'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
