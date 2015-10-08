@@ -16,4 +16,11 @@
 //= require react
 //= require components
 //= require react_ujs
-//= require_tree .
+//= require bootstrap-sprockets
+//= require js-routes
+//= require moment
+//= require moment/zh-tw.js
+//= require nprogress
+//= require nprogress-ajax
+//= require_tree ./components
+//require_tree .
