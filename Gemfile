@@ -37,6 +37,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'acts-as-taggable-on'
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'
+gem 'sprockets-commonjs'
 gem 'active_model_serializers'
 gem 'responders', '~> 2.0'
 gem 'js-routes'
@@ -44,6 +45,7 @@ gem 'font-awesome-rails'
 gem 'momentjs-rails'
 # Youtube-like progress bar
 gem 'nprogress-rails'
+gem 'ffaker'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

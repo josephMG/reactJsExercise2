@@ -13,16 +13,25 @@
 #  headline     :text
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
+#  picture      :string
 #
 
 class Person < ActiveRecord::Base
   include PgSearch
-  acts_as_taggable_on :skills, :interests
-  pg_search_scope :quick_search, 
-                  against: [:headline, :location, :summary],
-                  associated_against: {
-                    skills: [:name],
-                    interests: [:name]
+  enum gender: [:male, :female]
+  scope :sorted, ->{ order(first_name: :asc) }
+  pg_search_scope :search,
+                  against: [ 
+                    :first_name,
+                    :last_name,
+                    :location,
+                    :headline
+                  ],
+                  using: {
+                    tsearch: {
+                      prefix: true,
+                      normalization: 2
+                    }
                   }
   validates :first_name, presence: true
 end

@@ -13,6 +13,7 @@
 #  headline     :text
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
+#  picture      :string
 #
 
 require 'test_helper'

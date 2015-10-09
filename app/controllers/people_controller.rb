@@ -11,6 +11,6 @@ private
                 Person.search(params[:search])
               else
                 Person.all
-              end
+              end.sorted
   end
 end

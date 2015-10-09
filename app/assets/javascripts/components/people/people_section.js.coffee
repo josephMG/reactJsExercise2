@@ -1,5 +1,9 @@
 # @cjsx React.DOM
-## @ will be transform to 'this'
+# Actually, no need cjsx
+###### 
+# @ will be transform to 'this'
+# See also https://github.com/reactjs/react-rails/issues/28
+######
 @PeopleSection = React.createClass
   displayName: 'PeopleSection'
   getInitialState: ->
