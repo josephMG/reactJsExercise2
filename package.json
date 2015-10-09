@@ -1,0 +1,23 @@
+{
+  "name": "reactJsExercise2",
+  "dependencies": {
+    "browserify": "~> 10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "reactify": "^1.1.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "description": "Ruby on rails project with ReactJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}

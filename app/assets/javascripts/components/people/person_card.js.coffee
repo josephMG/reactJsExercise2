@@ -4,7 +4,7 @@
   displayName: 'PersonCard'
   render: ->
     #cx = require 'classnames'
-    cx = React.addons.classSet
+    #cx = React.addons.classSet
     cardClasses = cx
       'card': true
       'female': @props.data.gender == 'female'

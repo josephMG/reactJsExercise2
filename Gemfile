@@ -37,7 +37,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'acts-as-taggable-on'
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'
-gem 'sprockets-commonjs'
+#gem 'sprockets-commonjs'
+gem "browserify-rails"
 gem 'active_model_serializers'
 gem 'responders', '~> 2.0'
 gem 'js-routes'
