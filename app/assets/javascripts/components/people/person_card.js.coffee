@@ -1,10 +1,8 @@
-# @cjsx React.DOM
-
 @PersonCard = React.createClass
   displayName: 'PersonCard'
   render: ->
-    #cx = require 'classnames'
     #cx = React.addons.classSet
+    #cx = require 'classnames'
     cardClasses = cx
       'card': true
       'female': @props.data.gender == 'female'

@@ -38,6 +38,7 @@ gem 'acts-as-taggable-on'
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'
 #gem 'sprockets-commonjs'
+#gem 'sprockets-browserify'
 gem "browserify-rails"
 gem 'active_model_serializers'
 gem 'responders', '~> 2.0'
